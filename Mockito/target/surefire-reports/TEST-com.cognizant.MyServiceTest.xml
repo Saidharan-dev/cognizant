@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="com.cognizant.MyServiceTest" time="0.709" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="com.cognizant.MyServiceTest" time="0.681" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\sai\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.5.11-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\sai\AppData\Local\Temp\surefire882680054148113674\surefirebooter-20260627160527289_3.jar C:\Users\sai\AppData\Local\Temp\surefire882680054148113674 2026-06-27T16-05-27_186-jvmRun1 surefire-20260627160527289_1tmp surefire_0-20260627160527289_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\sai\AppData\Local\Temp\surefire553266000378177291\surefirebooter-20260627162742665_3.jar C:\Users\sai\AppData\Local\Temp\surefire553266000378177291 2026-06-27T16-27-42_576-jvmRun1 surefire-20260627162742665_1tmp surefire_0-20260627162742665_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\sai\Documents\GitHub\cognizant\Mockito\target\test-classes;C:\Users\sai\Documents\GitHub\cognizant\Mockito\target\classes;C:\Users\sai\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\sai\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\sai\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\sai\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\sai\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;C:\Users\sai\.m2\repository\org\mockito\mockito-core\5.12.0\mockito-core-5.12.0.jar;C:\Users\sai\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\sai\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.15\byte-buddy-agent-1.14.15.jar;C:\Users\sai\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\sai\AppData\Local\Temp\surefire882680054148113674\surefirebooter-20260627160527289_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\sai\AppData\Local\Temp\surefire553266000378177291\surefirebooter-20260627162742665_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.5+11-LTS"/>
@@ -60,11 +60,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testFetchData" classname="com.cognizant.MyServiceTest" time="0.708">
+  <testcase name="testVerifyInteraction" classname="com.cognizant.MyServiceTest" time="0.673">
     <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\sai\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.15\byte-buddy-agent-1.14.15.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
 WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
 WARNING: Dynamic loading of agents will be disallowed by default in a future release
 ]]></system-err>
   </testcase>
+  <testcase name="testFetchData" classname="com.cognizant.MyServiceTest" time="0.006"/>
 </testsuite>

@@ -25,4 +25,20 @@ public class MyServiceTest {
         // Verify the result
         assertEquals("Mock Data", result);
     }
+
+    @Test
+    public void testVerifyInteraction() {
+
+        // Create a mock object
+        ExternalApi mockApi = mock(ExternalApi.class);
+
+        // Inject the mock into MyService
+        MyService service = new MyService(mockApi);
+
+        // Call the method
+        service.fetchData();
+
+        // Verify that fetchData() on the mock was called
+        verify(mockApi).fetchData();
+    }
 }
